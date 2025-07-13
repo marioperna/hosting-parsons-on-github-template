@@ -10,12 +10,12 @@ title: Multiple Parson's Problems on One Page
 ## Parsons 1 (if-else)
 Riordina i blocchi qui sotto in modo che stampino in modo corretto le indicazioni sulla temperatura.
 
-<div id="p1exam-unibo-sortableTrash" class="sortable-code"></div> 
-<div id="p1exam-unibo-sortable" class="sortable-code"></div> 
+<div id="p1exam-unibo_0-sortableTrash" class="sortable-code"></div> 
+<div id="p1exam-unibo_0-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="p1exam-unibo-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="p1exam-unibo-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="p1exam-unibo_0-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="p1exam-unibo_0-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -24,7 +24,7 @@ Riordina i blocchi qui sotto in modo che stampino in modo corretto le indicazion
     "int main(){\n" +
     "    int temperatura;\n" +
     "    string risultato = &quot;&quot;;\n" +
-    "    cout &lt;&lt; &quot;Inserisci la temperatura \nesterna in gradi Celsius: &quot;;\n" +
+    "    cout &lt;&lt; &quot;Inserisci la temperatura esterna in °C: &quot;;\n" +
     "    cin &gt;&gt; temperatura;\n" +
     "    if (temperatura &gt;= 30){\n" +
     "        risultato = &quot;Fa molto caldo oggi!&quot;;\n" +
@@ -37,7 +37,7 @@ Riordina i blocchi qui sotto in modo che stampino in modo corretto le indicazion
     "}\n" +
     "risultato = (temperatura &gt;= 30) : &quot;Fa molto caldo oggi!&quot; \n? &quot;La temperatura è sopportabile.&quot;; #distractor";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "p1exam-unibo-sortable",
+    "sortableId": "p1exam-unibo_0-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -45,15 +45,15 @@ Riordina i blocchi qui sotto in modo che stampino in modo corretto le indicazion
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "p1exam-unibo-sortableTrash"
+    "trashId": "p1exam-unibo_0-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#p1exam-unibo-newInstanceLink").click(function(event){ 
+  $("#p1exam-unibo_0-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#p1exam-unibo-feedbackLink").click(function(event){ 
+  $("#p1exam-unibo_0-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
