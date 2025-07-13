@@ -21,11 +21,10 @@ Riordina i blocchi qui sotto in modo che stampino in modo corretto le indicazion
 (function(){
   var initial = "#include &lt;iostream&gt;\n" +
     "using namespace std;\n" +
-    "int main()\n" +
-    "{\n" +
+    "int main(){\n" +
     "    int temperatura;\n" +
     "    string risultato = &quot;&quot;;\n" +
-    "    cout &lt;&lt; &quot;Inserisci la temperatura esterna in gradi Celsius: &quot;;\n" +
+    "    cout &lt;&lt; &quot;Inserisci la temperatura \nesterna in gradi Celsius: &quot;;\n" +
     "    cin &gt;&gt; temperatura;\n" +
     "    if (temperatura &gt;= 30){\n" +
     "        risultato = &quot;Fa molto caldo oggi!&quot;;\n" +
@@ -36,8 +35,7 @@ Riordina i blocchi qui sotto in modo che stampino in modo corretto le indicazion
     "    cout &lt;&lt; risultato &lt;&lt; endl;\n" +
     "    return 0;\n" +
     "}\n" +
-    "string risultato #distractor\n" +
-    "risultato = (temperatura &gt;= 30) : &quot;Fa molto caldo oggi!&quot; : &quot;La temperatura è sopportabile.&quot;; #distractor";
+    "risultato = (temperatura &gt;= 30) : &quot;Fa molto caldo oggi!&quot; \n? &quot;La temperatura è sopportabile.&quot;; #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "p1exam-unibo-sortable",
     "max_wrong_lines": 10,
