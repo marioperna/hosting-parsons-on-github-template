@@ -10,12 +10,12 @@ title: Multiple Parson's Problems on One Page
 ## Parsons 1 (if-else)
 Riordina i blocchi qui sotto in modo che stampino in modo corretto le indicazioni sulla temperatura.
 
-<div id="p1exam-unibo_0-sortableTrash" class="sortable-code"></div> 
-<div id="p1exam-unibo_0-sortable" class="sortable-code"></div> 
+<div id="p1exam-unibo_00-sortableTrash" class="sortable-code"></div> 
+<div id="p1exam-unibo_00-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="p1exam-unibo_0-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="p1exam-unibo_0-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="p1exam-unibo_00-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="p1exam-unibo_00-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -35,9 +35,9 @@ Riordina i blocchi qui sotto in modo che stampino in modo corretto le indicazion
     "    cout &lt;&lt; risultato &lt;&lt; endl;\n" +
     "    return 0;\n" +
     "}\n" +
-    "risultato = (temperatura &gt;= 30) : &quot;Fa molto caldo oggi!&quot; \n? &quot;La temperatura è sopportabile.&quot;; #distractor";
+    "risultato = (temperatura &gt;= 30) : &quot;Fa molto caldo oggi!&quot; ? &quot;La temperatura è sopportabile.&quot;; #distractor";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "p1exam-unibo_0-sortable",
+    "sortableId": "p1exam-unibo_00-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -45,15 +45,15 @@ Riordina i blocchi qui sotto in modo che stampino in modo corretto le indicazion
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "p1exam-unibo_0-sortableTrash"
+    "trashId": "p1exam-unibo_00-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#p1exam-unibo_0-newInstanceLink").click(function(event){ 
+  $("#p1exam-unibo_00-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#p1exam-unibo_0-feedbackLink").click(function(event){ 
+  $("#p1exam-unibo_00-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
