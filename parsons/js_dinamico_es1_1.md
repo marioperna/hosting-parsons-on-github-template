@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Page 2 Example (Variable Check Grader)
+title: JavaScript Dinamico - Esercizio 1.1
 ---
 
 
