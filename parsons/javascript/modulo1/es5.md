@@ -19,16 +19,8 @@ title: JavaScript Dinamico - Esercizio 1.5
     "    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;\n" +
     "    &lt;title&gt;Esercizio: Ottenere Elementi Figli&lt;/title&gt;\n" +
     "    &lt;style&gt;\n" +
-    "        #contenitore {\n" +
-    "            border: 2px solid #333;\n" +
-    "            padding: 10px;\n" +
-    "            margin-bottom: 10px;\n" +
-    "        }\n" +
-    "        .figlio {\n" +
-    "            margin: 5px 0;\n" +
-    "            padding: 5px;\n" +
-    "            border: 1px solid #999;\n" +
-    "        }\n" +
+    "        #contenitore {...}\n" +
+    "        .figlio {...}\n" +
     "    &lt;/style&gt;\n" +
     "&lt;/head&gt;\n" +
     "&lt;body&gt;\n" +

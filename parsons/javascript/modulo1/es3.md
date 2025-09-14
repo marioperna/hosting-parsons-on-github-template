@@ -19,11 +19,7 @@ title: JavaScript Dinamico - Esercizio 1.3
     "    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;\n" +
     "    &lt;title&gt;Esercizio: Modifica Testo con Selettore CSS&lt;/title&gt;\n" +
     "    &lt;style&gt;\n" +
-    "        .messaggio {\n" +
-    "            font-size: 18px;\n" +
-    "            color: green;\n" +
-    "            margin-bottom: 10px;\n" +
-    "        }\n" +
+    "        .messaggio {...}\n" +
     "    &lt;/style&gt;\n" +
     "&lt;/head&gt;\n" +
     "&lt;body&gt;\n" +

@@ -20,11 +20,7 @@ title: JavaScript Dinamico - Esercizio 1.4
     "    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;\n" +
     "    &lt;title&gt;Esercizio: Nascondere Elementi con Selettore CSS&lt;/title&gt;\n" +
     "    &lt;style&gt;\n" +
-    "        .nascondi {\n" +
-    "            font-size: 18px;\n" +
-    "            color: darkred;\n" +
-    "            margin-bottom: 10px;\n" +
-    "        }\n" +
+    "        .nascondi {...}\n" +
     "    &lt;/style&gt;\n" +
     "&lt;/head&gt;\n" +
     "&lt;body&gt;\n" +

@@ -20,13 +20,7 @@ title: JavaScript Dinamico - Esercizio 1.2
     "    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;\n" +
     "    &lt;title&gt;Esercizio: Modifica Stile per Classe&lt;/title&gt;\n" +
     "    &lt;style&gt;\n" +
-    "        .evidenzia {\n" +
-    "            color: black;\n" +
-    "            font-size: 16px;\n" +
-    "            padding: 10px;\n" +
-    "            border: 1px solid #ccc;\n" +
-    "            margin-bottom: 10px;\n" +
-    "        }\n" +
+    "        .evidenzia {...}\n" +
     "    &lt;/style&gt;\n" +
     "&lt;/head&gt;\n" +
     "&lt;body&gt;\n" +
@@ -37,10 +31,7 @@ title: JavaScript Dinamico - Esercizio 1.2
     "    &lt;button onclick=&quot;modificaStile()&quot;&gt;Cambia stile dei paragrafi&lt;/button&gt;\n" +
     "    &lt;script&gt;\n" +
     "        function modificaStile() {\n" +
-    "            // Otteniamo tutti gli elementi con la classe &#039;evidenzia&#039;\n" +
     "            const elementi = document.getElementsByClassName(&#039;evidenzia&#039;);\n" +
-    "            \n" +
-    "            // Modifichiamo lo stile di ciascun elemento\n" +
     "            for (let i = 0; i &lt; elementi.length; i++) {\n" +
     "                elementi[i].style.color = &#039;white&#039;;\n" +
     "                elementi[i].style.backgroundColor = &#039;blue&#039;;\n" +
@@ -50,8 +41,10 @@ title: JavaScript Dinamico - Esercizio 1.2
     "    &lt;/script&gt;\n" +
     "&lt;/body&gt;\n" +
     "&lt;/html&gt;\n" +
-    "elementi[i].style.background-color = &#039;blue&#039;; #distractor\n" +
-    "elementi[i].style.font-weight = &#039;bold&#039;; #distractor";
+    "const elementi = document.getElementsByClassName(&#039;.evidenzia&#039;); #distractor\n" +
+    "const elementi = document.getElementsByClassName(&#039;#evidenzia&#039;); #distractor\n" +
+    "const elementi = document.getElementsByClassName(&#039;?evidenzia&#039;); #distractor\n" +
+    "elementi[i].style.background-color = &#039;blue&#039;; #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "jsDinamico_es1-2-sortable",
     "max_wrong_lines": 10,
