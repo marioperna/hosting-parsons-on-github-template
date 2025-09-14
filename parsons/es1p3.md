@@ -1,6 +1,7 @@
 ---
 layout: default
 title: JavaScript Dinamico - Esercizio 1.2
+permalink: /es1p3.html
 ---
 
 
