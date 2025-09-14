@@ -1,3 +1,9 @@
+---
+layout: default
+title: Page 2 Example (Variable Check Grader)
+---
+
+
 <div id="jsDinamico_es1-1-sortableTrash" class="sortable-code"></div> 
 <div id="jsDinamico_es1-1-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
