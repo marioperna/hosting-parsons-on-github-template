@@ -13,13 +13,11 @@ description: Stampa sulla console il risultato del confronto tra un numero e una
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "const a = 10;\n" +
-    "const b = &quot;10&quot;;\n" +
-    "const c = 10;\n" +
-    "console.log(a !== b); // true -&gt; diversi per tipo\n" +
-    "console.log(a !== c); // false -&gt; uguali in valore e tipo\n" +
-    "console.log(a !== b); // true -&gt; uguali per tipo #distractor\n" +
-    "console.log(a !== c); // false -&gt; uguali in valore ma non per tipo #distractor";
+  var initial = "let numero = 5;\n" +
+    "let stringa = &quot;5&quot;;\n" +
+    "console.log(numero !== stringa);\n" +
+    "console.log(numero != stringa); #distractor\n" +
+    "console.log(numero ==! stringa); #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "js_esgroup6_6-sortable",
     "max_wrong_lines": 10,
