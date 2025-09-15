@@ -14,9 +14,9 @@ title: JS Where TO
 </p>
 <script type="text/javascript">
 (function(){
-  var initial = "<script>\n" +
+  var initial = "<js> #distractor\n" +
     "<javascript> #distractor\n" +
-    "<js> #distractor\n" +
+    "<script> #correct\n" +
     "<scripting> #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "quiz-jswhereto-1-sortable",
@@ -237,4 +237,172 @@ title: JS Where TO
   });
 })();
 </script>
+
+# How many statements can you find in this line of code: let a = 5; let b = 6; c = a + b;
+<div id="quiz-jswhereto-7-sortableTrash" class="sortable-code"></div>
+<div id="quiz-jswhereto-7-sortable" class="sortable-code"></div>
+<div style="clear:both;"></div>
+<p>
+    <input id="quiz-jswhereto-7-feedbackLink" value="Get Feedback" type="button" />
+    <input id="quiz-jswhereto-7-newInstanceLink" value="Reset Problem" type="button" />
+</p>
+<script type="text/javascript">
+(function(){
+  var initial = "3 #correct\n" +
+    "2 #distractor\n" +
+    "1 #distractor\n" +
+    "0 #distractor";
+  var parsonsPuzzle = new ParsonsWidget({
+    "sortableId": "quiz-jswhereto-7-sortable",
+    "max_wrong_lines": 10,
+    "grader": ParsonsWidget._graders.LineBasedGrader,
+    "exec_limit": 2500,
+    "can_indent": true,
+    "x_indent": 50,
+    "lang": "en",
+    "show_feedback": true,
+    "trashId": "quiz-jswhereto-7-sortableTrash"
+  });
+  parsonsPuzzle.init(initial);
+  parsonsPuzzle.shuffleLines();
+  $("#quiz-jswhereto-7-newInstanceLink").click(function(event){
+      event.preventDefault();
+      parsonsPuzzle.shuffleLines();
+  });
+  $("#quiz-jswhereto-7-feedbackLink").click(function(event){
+      event.preventDefault();
+      parsonsPuzzle.getFeedback();
+  });
+})();
+</script>
+
+## A semicolons is required after a statement in JavaScript. True or False?
+<div id="quiz-jswhereto-8-sortableTrash" class="sortable-code"></div>
+<div id="quiz-jswhereto-8-sortable" class="sortable-code"></div>
+<div style="clear:both;"></div>
+<p>
+    <input id="quiz-jswhereto-8-feedbackLink" value="Get Feedback" type="button" />
+    <input id="quiz-jswhereto-8-newInstanceLink" value="Reset Problem" type="button" />
+</p>
+<script type="text/javascript">
+(function(){
+  var initial = "True #distractor\n" +
+    "False #correct";
+  var parsonsPuzzle = new ParsonsWidget({
+    "sortableId": "quiz-jswhereto-8-sortable",
+    "max_wrong_lines": 10,
+    "grader": ParsonsWidget._graders.LineBasedGrader,
+    "exec_limit": 2500,
+    "can_indent": true,
+    "x_indent": 50,
+    "lang": "en",
+    "show_feedback": true,
+    "trashId": "quiz-jswhereto-8-sortableTrash"
+  });
+  parsonsPuzzle.init(initial);
+  parsonsPuzzle.shuffleLines();
+  $("#quiz-jswhereto-8-newInstanceLink").click(function(event){
+      event.preventDefault();
+      parsonsPuzzle.shuffleLines();
+  });
+  $("#quiz-jswhereto-8-feedbackLink").click(function(event){
+      event.preventDefault();
+      parsonsPuzzle.getFeedback();
+  });
+})();
+</script>
+
+## How many statements are present inside the function block? 
+```js
+function genie() {
+  let a, b, c;
+  a = 5;
+  b = 9;
+  c = a + b;
+}
+```
+
+<div id="quiz-jswhereto-9-sortableTrash" class="sortable-code"></div>
+<div id="quiz-jswhereto-9-sortable" class="sortable-code"></div>
+<div style="clear:both;"></div>
+<p>
+    <input id="quiz-jswhereto-9-feedbackLink" value="Get Feedback" type="button" />
+    <input id="quiz-jswhereto-9-newInstanceLink" value="Reset Problem" type="button" />
+</p>
+<script type="text/javascript">
+(function(){
+  var initial = "4 #correct\n" +
+    "3 #distractor\n" +
+    "2 #distractor\n" +
+    "1 #distractor\n" +
+    "0 #distractor";
+  var parsonsPuzzle = new ParsonsWidget({
+    "sortableId": "quiz-jswhereto-9-sortable",
+    "max_wrong_lines": 10,
+    "grader": ParsonsWidget._graders.LineBasedGrader,
+    "exec_limit": 2500,
+    "can_indent": true,
+    "x_indent": 50,
+    "lang": "en",
+    "show_feedback": true,
+    "trashId": "quiz-jswhereto-9-sortableTrash"
+  });
+  parsonsPuzzle.init(initial);
+  parsonsPuzzle.shuffleLines();
+  $("#quiz-jswhereto-9-newInstanceLink").click(function(event){
+      event.preventDefault();
+      parsonsPuzzle.shuffleLines();
+  });
+  $("#quiz-jswhereto-9-feedbackLink").click(function(event){
+      event.preventDefault();
+      parsonsPuzzle.getFeedback();
+  });
+})();
+</script> 
+
+
+## What is a correct syntax for assigning a value to a variable?
+x : 5
+x = 5
+x == 5
+x -> 5
+
+
+<div id="quiz-jswhereto-10-sortableTrash" class="sortable-code"></div>
+<div id="quiz-jswhereto-10-sortable" class="sortable-code"></div>
+<div style="clear:both;"></div>
+<p>
+    <input id="quiz-jswhereto-10-feedbackLink" value="Get Feedback" type="button" />
+    <input id="quiz-jswhereto-10-newInstanceLink" value="Reset Problem" type="button" />
+</p>
+<script type="text/javascript">
+(function(){
+  var initial = "x = 5 #correct\n" +
+    "x : 5 #distractor\n" +
+    "x == 5 #distractor\n" +
+    "x -> 5 #distractor";
+  var parsonsPuzzle = new ParsonsWidget({
+    "sortableId": "quiz-jswhereto-10-sortable",
+    "max_wrong_lines": 10,
+    "grader": ParsonsWidget._graders.LineBasedGrader,
+    "exec_limit": 2500,
+    "can_indent": true,
+    "x_indent": 50,
+    "lang": "en",
+    "show_feedback": true,
+    "trashId": "quiz-jswhereto-10-sortableTrash"
+  });
+  parsonsPuzzle.init(initial);
+  parsonsPuzzle.shuffleLines();
+  $("#quiz-jswhereto-10-newInstanceLink").click(function(event){
+      event.preventDefault();
+      parsonsPuzzle.shuffleLines();
+  });
+  $("#quiz-jswhereto-10-feedbackLink").click(function(event){
+      event.preventDefault();
+      parsonsPuzzle.getFeedback();
+  });
+})();
+</script>
+
 
