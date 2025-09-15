@@ -9,10 +9,11 @@ title: Parsons problems del prof. Mario Perna
 # Indice
 
 ## Il linguaggio JavaScript
-### [ES-1](./parsons/javascript/modulo2/es1.md)
-### [ES-2](./parsons/javascript/modulo2/es2.md)
-### [ES-3](./parsons/javascript/modulo2/es3.md)
-### [ES-4](./parsons/javascript/modulo2/es4.md)
-### [ES-5](./parsons/javascript/modulo2/es5.md)
-### [ES-6](./parsons/javascript/modulo2/es6.md)
-
+### [Esercizi gruppo 6 n. 1](parsons/javascript/esercizi_6/es1.md)
+### [Esercizi gruppo 6 n. 2](parsons/javascript/esercizi_6/es2.md)
+### [Esercizi gruppo 6 n. 3](parsons/javascript/esercizi_6/es3.md)
+### [Esercizi gruppo 6 n. 4](parsons/javascript/esercizi_6/es4.md)
+### [Esercizi gruppo 6 n. 5](parsons/javascript/esercizi_6/es5.md)
+### [Esercizi gruppo 6 n. 6](parsons/javascript/esercizi_6/es6.md)
+### [Esercizi gruppo 6 n. 7](parsons/javascript/esercizi_6/es7.md)      
+### [Esercizi gruppo 6 n. 8](parsons/javascript/esercizi_6/es8.md)

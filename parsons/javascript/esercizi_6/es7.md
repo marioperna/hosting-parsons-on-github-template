@@ -1,6 +1,6 @@
 ---
 layout: default
-title: JavaScript - Esercizio 6.1
+title: JavaScript - Esercizio gruppo 6 n. 7
 ---
 
 <div id="js_es1-6-sortableTrash" class="sortable-code"></div> 
