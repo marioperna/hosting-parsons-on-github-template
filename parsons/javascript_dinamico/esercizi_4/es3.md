@@ -1,6 +1,7 @@
 ---
 layout: default
 title: JavaScript Dinamico - Esercizio gruppo 4 n. 3
+description: Creare un nuovo elemento img e impostare l'attributo src e alt
 ---
 
 <div id="jsDinamico_esgroup4_3-sortableTrash" class="sortable-code"></div> 
