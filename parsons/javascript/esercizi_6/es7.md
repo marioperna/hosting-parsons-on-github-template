@@ -1,6 +1,7 @@
 ---
 layout: default
 title: JavaScript - Esercizio gruppo 6 n. 7
+description: Stampa sulla console il risultato del confronto tra due numeri per verificare se il primo numero è minore o uguale del secondo.
 ---
 
 <div id="js_es1-6-sortableTrash" class="sortable-code"></div> 

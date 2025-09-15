@@ -1,6 +1,7 @@
 ---
 layout: default
 title: JavaScript - Esercizio gruppo 6 n. 8
+description: Stampa sulla console il risultato del confronto tra due numeri per verificare se il primo numero è diverso dal secondo.
 ---
 
 <div id="js_esgroup6_8-sortableTrash" class="sortable-code"></div> 

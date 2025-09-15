@@ -1,6 +1,7 @@
 ---
 layout: default
 title: JavaScript - Esercizio gruppo 6 n. 6
+description: Stampa sulla console il risultato del confronto tra un numero e una stringa per verificare se sono diversi sia in valore che in tipo.
 ---
 
 <div id="js_esgroup6_6-sortableTrash" class="sortable-code"></div> 
