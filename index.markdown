@@ -17,7 +17,7 @@ title: Parsons problems del prof. Mario Perna
 ### [Esercizi gruppo 6 n. 6](parsons/javascript/esercizi_6/es6.md)
 ### [Esercizi gruppo 6 n. 7](parsons/javascript/esercizi_6/es7.md)      
 ### [Esercizi gruppo 6 n. 8](parsons/javascript/esercizi_6/es8.md)
-
+---
 ### [Esercizi gruppo 7 n. 1](parsons/javascript/esercizi_7/es1.md)
 ### [Esercizi gruppo 7 n. 2](parsons/javascript/esercizi_7/es2.md)
 ### [Esercizi gruppo 7 n. 3](parsons/javascript/esercizi_7/es3.md)
@@ -27,6 +27,9 @@ title: Parsons problems del prof. Mario Perna
 
 
 ## JavaScript Dinamico
+
+### [Esercizi gruppo 1 n. 1](parsons/javascript_dinamico/esercizi_1/es1.md)
+---
 ### [Esercizi gruppo 4 n. 1](parsons/javascript_dinamico/esercizi_4/es1.md)
 ### [Esercizi gruppo 4 n. 2](parsons/javascript_dinamico/esercizi_4/es2.md)
 ### [Esercizi gruppo 4 n. 3](parsons/javascript_dinamico/esercizi_4/es3.md)
