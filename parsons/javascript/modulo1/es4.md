@@ -68,3 +68,5 @@ title: JavaScript Dinamico - Esercizio 1.4
   }); 
 })(); 
 </script>
+
+[Torna all'indice](../../../index.markdown)

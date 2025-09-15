@@ -3,68 +3,16 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Multiple Parson's Problems on One Page
+title: Parsons problems del prof. Mario Perna
 ---
-# Parsons Practice
 
-## Parsons 1 (if-else)
-Riordina i blocchi qui sotto in modo che stampino in modo corretto le indicazioni sulla temperatura.
+# Indice
 
-<div id="p1exam-unibo_00-sortableTrash" class="sortable-code"></div> 
-<div id="p1exam-unibo_00-sortable" class="sortable-code"></div> 
-<div style="clear:both;"></div> 
-<p> 
-    <input id="p1exam-unibo_00-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="p1exam-unibo_00-newInstanceLink" value="Reset Problem" type="button" /> 
-</p> 
-<script type="text/javascript"> 
-(function(){
-  var initial = "#include &lt;iostream&gt;\n" +
-    "using namespace std;\n" +
-    "int main(){\n" +
-    "    int temperatura;\n" +
-    "    string risultato = &quot;&quot;;\n" +
-    "    cout &lt;&lt; &quot;Inserisci la temperatura esterna in °C: &quot;;\n" +
-    "    cin &gt;&gt; temperatura;\n" +
-    "    if (temperatura &gt;= 30){\n" +
-    "        risultato = &quot;Fa molto caldo oggi!&quot;;\n" +
-    "    }\n" +
-    "    else {\n" +
-    "        risultato = &quot;La temperatura è piacevole oggi.&quot;;\n" +
-    "    }\n" +
-    "    cout &lt;&lt; risultato &lt;&lt; endl;\n" +
-    "    return 0;\n" +
-    "}\n" +
-    "risultato = (temperatura &gt;= 30) : &quot;Fa molto caldo oggi!&quot; ? &quot;La temperatura è sopportabile.&quot;; #distractor";
-  var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "p1exam-unibo_00-sortable",
-    "max_wrong_lines": 10,
-    "grader": ParsonsWidget._graders.LineBasedGrader,
-    "exec_limit": 2500,
-    "can_indent": true,
-    "x_indent": 50,
-    "lang": "en",
-    "show_feedback": true,
-    "trashId": "p1exam-unibo_00-sortableTrash"
-  });
-  parsonsPuzzle.init(initial);
-  parsonsPuzzle.shuffleLines();
-  $("#p1exam-unibo_00-newInstanceLink").click(function(event){ 
-      event.preventDefault(); 
-      parsonsPuzzle.shuffleLines(); 
-  }); 
-  $("#p1exam-unibo_00-feedbackLink").click(function(event){ 
-      event.preventDefault(); 
-      parsonsPuzzle.getFeedback(); 
-  }); 
-})(); 
-</script>
+## Il linguaggio JavaScript
+### [ES-1](./parsons/javascript/modulo1/es1.md)
+### [ES-2](./parsons/javascript/modulo1/es2.md)
+### [ES-3](./parsons/javascript/modulo1/es3.md)
+### [ES-4](./parsons/javascript/modulo1/es4.md)
+### [ES-5](./parsons/javascript/modulo1/es5.md)
+### [ES-6](./parsons/javascript/modulo1/es6.md)
 
-### Implementation Notes
-
-When you host multiple Parson's problems on a single markdown page, you need to add a unique prefix. You can easily do this in the Codio generator by typing a unique prefix into the "Prefix" textbox and pressing Enter/Return. Then you can simply copy-paste like normal.
-
-If want each problem to be it's own page, you can use relative path links at the bottom of each of your markdown pages as seen below. If you want students to be able to return to previous problems in this format, consider adding previous links or link to a table of contents like page.
-
-### Example Next Link
-[Next](./parsons/example1.html)
