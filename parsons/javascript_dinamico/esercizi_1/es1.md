@@ -1,6 +1,7 @@
 ---
 layout: default
 title: JavaScript Dinamico - Esercizio 1.1
+description: Creare una pagina HTML che include uno script JavaScript per ottenere un elemento per ID e visualizzarne il contenuto.
 ---
 
 
