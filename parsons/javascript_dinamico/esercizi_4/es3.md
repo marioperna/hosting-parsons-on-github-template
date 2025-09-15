@@ -45,3 +45,5 @@ description: Creare un nuovo elemento img e impostare l'attributo src e alt
   }); 
 })(); 
 </script>
+
+[Torna all'indice](../../../index.markdown)

@@ -49,3 +49,5 @@ title: JavaScript - Esercizio gruppo 7 n. 6
   }); 
 })(); 
 </script>
+
+[Torna all'indice](../../../index.markdown)

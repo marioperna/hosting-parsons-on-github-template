@@ -42,3 +42,5 @@ description: Stampa sulla console il risultato del confronto tra un numero e una
   }); 
 })(); 
 </script>
+
+[Torna all'indice](../../../index.markdown)

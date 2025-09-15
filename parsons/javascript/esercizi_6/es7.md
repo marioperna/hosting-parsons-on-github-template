@@ -47,3 +47,5 @@ description: Stampa sulla console il risultato del confronto tra due numeri per 
   }); 
 })(); 
 </script>
+
+[Torna all'indice](../../../index.markdown)
