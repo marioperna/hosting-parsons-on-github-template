@@ -14,6 +14,8 @@ description: Indice degli esercizi di Parsons proposti
 
 1. [Esercizi gruppo 0 n. 1](parsons/javascript/esercizi_0/es1.md)
 2. [Esercizi gruppo 0 n. 2](parsons/javascript/esercizi_0/es2.md)
+3. [Esercizi gruppo 0 n. 3](parsons/javascript/esercizi_0/es3.md)
+4. [Esercizi gruppo 0 n. 4](parsons/javascript/esercizi_0/es4.md)
 
 ### Gruppo 1
 1. [Esercizi gruppo 1 n. 1](parsons/javascript/esercizi_1/es1.md)
