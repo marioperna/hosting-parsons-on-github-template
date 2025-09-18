@@ -8,6 +8,9 @@ description: Indice degli esercizi di Parsons proposti
 
 # Indice
 
+## HTML
+1. [Esercizi gruppo 0 n. 1](parsons/html/esercizi_0/es1.md)
+
 ## Il linguaggio JavaScript
 
 ### Gruppo 0
