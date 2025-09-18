@@ -45,3 +45,5 @@ description: Crea una pagina HTML che mostra un messaggio “Hello, world!” me
   }); 
 })(); 
 </script>
+
+[Torna all'indice](../../../index.markdown)

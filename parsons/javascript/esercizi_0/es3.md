@@ -42,3 +42,5 @@ description: Crea un programma che dichiari una costante e la stampi in console.
   }); 
 })(); 
 </script>
+
+[Torna all'indice](../../../index.markdown)

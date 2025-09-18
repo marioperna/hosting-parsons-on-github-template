@@ -40,3 +40,5 @@ description: Seleziona la riga corretta per dichiarare una variabile in JavaScri
   }); 
 })(); 
 </script>
+
+[Torna all'indice](../../../index.markdown)
