@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Parsons problems del prof. Mario Perna
+title: Parsons problems
 description: Indice degli esercizi di Parsons proposti 
 ---
 
