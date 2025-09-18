@@ -20,6 +20,14 @@ description: Indice degli esercizi di Parsons proposti
 1. [Esercizi gruppo 1 n. 1](parsons/javascript/esercizi_1/es1.md)
 2. [Esercizi gruppo 1 n. 2](parsons/javascript/esercizi_1/es2.md)
 
+### Gruppo 2
+1. [Esercizi gruppo 2 n. 1](parsons/javascript/es
+ercizi_2/es1.md)
+2. [Esercizi gruppo 2 n. 2](parsons/javascript/es
+ercizi_2/es2.md)
+3. [Esercizi gruppo 2 n. 3](parsons/javascript/es
+ercizi_2/es3.md)
+
 ### Gruppo 6
 1. [Esercizi gruppo 6 n. 5](parsons/javascript/esercizi_6/es5.md)
 

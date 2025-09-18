@@ -4,8 +4,6 @@ title: JavaScript - Esercizio gruppo 2 n. 6
 description: Dichiarare una variabile chiamata "numero" e assegnarle il valore 5. Mostrare il valore della variabile.
 ---
 
-// usa variableCheckGrader
-
 <div id="js_esgroup2_1-sortableTrash" class="sortable-code"></div>
 <div id="js_esgroup2_1-sortable" class="sortable-code"></div>
 <div style="clear:both;"></div>

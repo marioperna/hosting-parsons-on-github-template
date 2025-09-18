@@ -1,7 +1,7 @@
 ---
 layout: default
 title: JavaScript - Esercizio gruppo 1 n. 2
-description: Crea un pagina che mostra un messaggio “I’m JavaScript - Internal” mediante un alert contenuto in uno script esterno.
+description: Crea un pagina che mostra un messaggio “I’m JavaScript - Internal” mediante un alert contenuto in uno script esterno. N.B. Considera la presenza del file script.js contenga il codice JavaScript necessario per mostrare l’alert.
 ---
 
 <div id="js_esgroup1_2-sortableTrash" class="sortable-code"></div> 
