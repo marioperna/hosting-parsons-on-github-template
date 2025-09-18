@@ -1,6 +1,6 @@
 ---
 layout: default
-title: JavaScript - Esercizio gruppo 2 n. 6
+title: JavaScript - Esercizio gruppo 2 n. 1
 description: Dichiarare una variabile chiamata "numero" e assegnarle il valore 5. Mostrare il valore della variabile.
 ---
 
