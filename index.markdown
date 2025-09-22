@@ -9,10 +9,13 @@ description: Indice degli esercizi di Parsons proposti
 # Indice
 
 ## C++
-1. [Esercizi gruppo 0 n. 0](parsons/cpp/esercizi_0/es0.md)
-2. [Esercizi gruppo 0 n. 1](parsons/cpp/esercizi_0/es1.md)
-3. [Esercizi gruppo 0 n. 2](parsons/cpp/esercizi_0/es2.md)
-4. [Esercizi gruppo 0 n. 3](parsons/cpp/esercizi_0/es3.md)
+### Introduzione
+1. [Esercizi gruppo 0 n. 0](parsons/cpp/intro/es0.md)
+### Cicli
+2. [Esercizi gruppo 0 n. 1](parsons/cpp/cicli/es1.md)
+3. [Esercizi gruppo 0 n. 2](parsons/cpp/cicli/es2.md)
+4. [Esercizi gruppo 0 n. 3](parsons/cpp/cicli/es3.md)
+
 
 ## HTML
 1. [Esercizi gruppo 0 n. 1](parsons/html/esercizi_0/es1.md)
