@@ -11,6 +11,11 @@ description: Indice degli esercizi di Parsons proposti
 ## C++
 ### Introduzione
 1. [Esercizi gruppo 0 n. 0](parsons/cpp/intro/es0.md)
+
+### Condizioni
+1. [Esercizi gruppo 0 n. 1](parsons/cpp/condizioni/es1.md)
+2. [Esercizi gruppo 0 n. 2](parsons/cpp/condizioni/es2.md)
+
 ### Cicli
 2. [Esercizi gruppo 0 n. 1](parsons/cpp/cicli/es1.md)
 3. [Esercizi gruppo 0 n. 2](parsons/cpp/cicli/es2.md)
